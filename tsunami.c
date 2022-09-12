@@ -1,13 +1,12 @@
 /**
  * @file tsunami.c
- * @author Miguel Soto (miguel@soto.es)
+ * @author Miguel Soto
  * @brief Programa con buffer overflow
  * El programa realiza el buffer overflow con la función strcpy. 
  * Este programa se llama a traves del payload.c
  * 
  * @version 1.0
  * @date 2022-07-26
- * @copyright Copyright (c) 2022
  */
 
 #include <stdio.h>

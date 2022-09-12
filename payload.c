@@ -1,12 +1,11 @@
 /**
- * @file payload&tsunami.c
- * @author Miguel Soto (miguel@soto.es)
+ * @file payload.c
+ * @author Miguel Soto
  * @brief Se encarga de ejecutar tsunami.exe con el argumento correcto
  * Este programa crea el argumento que necesita tsunami.exe para ejecutar la shellcode que queremos
  * 
  * @version 1.0
  * @date 2022-07-26
- * @copyright Copyright (c) 2022
  */
 
 #include <stdio.h>
