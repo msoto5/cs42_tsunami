@@ -18,9 +18,13 @@ VirtualBox lets having shared clipboards and to drag files between host and gues
 - **Drag and Drop**: Devices > Drag and Drop > Bidirectional
 
 ## Fast Usage
-1. Compile tsunami.c and payload.c
+1. Compile [tsunami.c](tsunami.c) and [payload.c](payload.c)
 2. Send them to guest machine to the same folder (this can be made by dragging them with virtualbox function)
 3. Run payload:
 '''bash
 ./payload
 '''
+
+## Other files
+
+- [shellcode_calc.c](shellcode_calc.c) and [shellcode_cmd.c](shellcode_cmd.c): Are C files that execute some instructions in assembly language that open the calculator and the terminal respectively. They were used to obtain those instructions in hexadecimal with the debugger, which is added to payload.c. Both files can be compiled and run with Microsoft Visual C++ which was already installed in Windows XP virtual machine.
