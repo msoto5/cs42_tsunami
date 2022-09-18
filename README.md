@@ -34,8 +34,8 @@ The following software is included in [used_software](used_software):
 
 ### Procedure
 1. Encontrar la posición del argumento de retorno de la pila:
-    1.1. Compile
-    1.2.
+    - Compile
+    - a
 2. E
 
 ## Other files
