@@ -35,7 +35,7 @@ The following software is included in [used_software](used_software):
 ### Procedure
 1. Encontrar la posición del argumento de retorno de la pila:
     1. Compile tsunami.c and run it in Windows XP with "AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHIIIIJJJJKKKKLLLLMMMMNNNNOOOOPPPPQQQQRRRRSSSSTTTTUUUUVVVVWWWWXXXXYYYYZZZZ" as argument
-    2. A new window will pop up:\ 
+    2. A new window will pop up: \\ 
     ![Image](images/error_window.jpg)
 2. E
 
