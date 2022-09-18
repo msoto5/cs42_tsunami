@@ -21,10 +21,22 @@ VirtualBox lets having shared clipboards and to drag files between host and gues
 1. Compile [tsunami.c](tsunami.c) and [payload.c](payload.c)
 2. Send them to guest machine to the same folder (this can be made by dragging them with virtualbox function)
 3. Run payload:
-'''bash
+```bash
 ./payload
-'''
+```
+
+## Do it yourself
+### Prerequisite
+The following software is included in [used_software](used_software):
+- findjmp.exe: Will search in the DLL that we tell it, instructions referring to the registry that we want.
+- Ollydbg (Debugger): Debugger used to understand the process and obtain the shellcode instructions in hexadecimal.
+- Dev Cpp: Used to compile C code
+
+### Procedure
+1. Encontrar la posición del argumento de retorno de la pila:
+    1.1. Compile
+    1.2.
+2. E
 
 ## Other files
-
-- [shellcode_calc.c](shellcode_calc.c) and [shellcode_cmd.c](shellcode_cmd.c): Are C files that execute some instructions in assembly language that open the calculator and the terminal respectively. They were used to obtain those instructions in hexadecimal with the debugger, which is added to payload.c. Both files can be compiled and run with Microsoft Visual C++ which was already installed in Windows XP virtual machine.
+- [shellcode_calc.c](shellcode_calc.c) and [shellcode_cmd.c](shellcode_cmd.c): Are C files that execute some instructions in assembly language that open the calculator and the terminal respectively. They were used to obtain those instructions in hexadecimal with the debugger, which were later added to payload.c. Both files can be compiled and run with Microsoft Visual C++ which was already installed in Windows XP virtual machine.
